@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DataStore {
+final class DataStore {
     static let shared = DataStore()
     
     let names = ["Steven", "Nicola", "Carl", "Tim", "Bruce", "Ted", "John", "Allan", "Aaron", "Sharon"]
