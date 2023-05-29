@@ -9,11 +9,8 @@ import UIKit
 
 final class SecondPersonsListViewController: UITableViewController {
     
+    //MARK: - Public properties
     var contactList: [Person]!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }
 
 // MARK: - UITableViewDataSource

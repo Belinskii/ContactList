@@ -8,14 +8,17 @@
 import UIKit
 
 final class TabBarController: UITabBarController {
+    
+    // MARK: - Private Properties
     private var contactList = Person.getContactList()
     
+    // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         transferData()
     }
     
+    // MARK: - Private Methods
     private func transferData() {
         guard let viewControllers else { return }
         

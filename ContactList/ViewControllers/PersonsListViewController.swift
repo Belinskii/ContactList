@@ -9,10 +9,10 @@ import UIKit
 
 final class PersonsListViewController: UITableViewController {
     
+    //MARK: - Public properties
     var contactList: [Person]!
     
     // MARK: - Navigation
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         guard let detailsVC = segue.destination as? PersonDetailsViewController else { return }

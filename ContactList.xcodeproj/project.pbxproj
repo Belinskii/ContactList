@@ -66,10 +66,10 @@
 		25603AE92A2102AB00DF3096 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				25603AFE2A2102C400DF3096 /* ViewControllers */,
 				25603B092A211B5F00DF3096 /* Models */,
 				25603B062A211A6A00DF3096 /* Services */,
 				25603B002A2102F300DF3096 /* App */,
-				25603AFE2A2102C400DF3096 /* ViewControllers */,
 				25603AFF2A2102DE00DF3096 /* Storyboards */,
 				25603B012A2102FA00DF3096 /* Resourses */,
 			);

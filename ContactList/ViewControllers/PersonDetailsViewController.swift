@@ -9,11 +9,14 @@ import UIKit
 
 final class PersonDetailsViewController: UIViewController {
 
+    //MARK: - IBOutlets
     @IBOutlet var phoneNumberLabel: UILabel!
     @IBOutlet var emailAddressLabel: UILabel!
     
+    //MARK: - Public properties
     var contact: Person!
     
+    //MARK: - View Life Circle
     override func viewDidLoad() {
         super.viewDidLoad()
         title = contact.fullname

@@ -5,8 +5,6 @@
 //  Created by Марина Иванова on 26.05.2023.
 //
 
-import Foundation
-
 struct Person {
     var name: String
     let surname: String

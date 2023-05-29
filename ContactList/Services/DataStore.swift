@@ -5,8 +5,6 @@
 //  Created by Марина Иванова on 26.05.2023.
 //
 
-import Foundation
-
 final class DataStore {
     static let shared = DataStore()
     
